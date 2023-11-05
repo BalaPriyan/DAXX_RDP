@@ -6,7 +6,7 @@ import json
 
 from pyngrok import ngrok
 
-NGROK_APIKEY = os.environ.get("NGROK_APIKEY", "YOUR_NGROK_APIKEY")
+NGROK_APIKEY = os.environ.get("NGROK_APIKEY", "2XkAUddYPQojhFIQx7y3Cm1uVcm_49ixL3maCmU81X9v5ks9V")
 
 ngrok.set_auth_token(NGROK_APIKEY)
 
